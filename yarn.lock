@@ -3298,6 +3298,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"app3@workspace:packages/app3":
+  version: 0.0.0-use.local
+  resolution: "app3@workspace:packages/app3"
+  dependencies:
+    nuxt: ^3.13.0
+    vue: latest
+    vue-router: latest
+  languageName: unknown
+  linkType: soft
+
 "aproba@npm:2.0.0, aproba@npm:^1.0.3 || ^2.0.0":
   version: 2.0.0
   resolution: "aproba@npm:2.0.0"
