@@ -6,14 +6,10 @@
   ],
   "packageManager": "yarn@3.3.1",
   "scripts": {
-    "app1:serve": "yarn workspace app1 dev",
-    "app1:build": "yarn workspace app1 build",
-    "app2:serve": "yarn workspace app2 dev",
-    "app2:build": "yarn workspace app1 build",
-    "test1:serve": "yarn workspace test1 dev",
-    "test1:buikd": "yarn workspace test1 build",
-    "shared:build": "yarn workspace shared build",
-    "all:serve": "yarn workspace app1 dev & yarn workspace app2 dev & yarn workspace test1 dev",
+    "app:serve": "yarn workspace @sss/app dev",
+    "app:build": "yarn workspace @sss/app build",
+    "layer:serve": "yarn workspace @nuxt-layer/components dev",
+    "layer:build": "yarn workspace @nuxt-layer/components build",
     "lerna:init": "yarn lerna init",
     "lerna:version": "yarn lerna version"
   },

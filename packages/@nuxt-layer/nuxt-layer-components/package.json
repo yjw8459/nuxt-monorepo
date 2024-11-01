@@ -1,0 +1,22 @@
+{
+  "name": "@nuxt-layer/components",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "vue": "^3.5.10"
+  },
+  "devDependencies": {
+    "nuxt": "^3.12.4",
+    "sass": "^1.71.1",
+    "typescript": "^5.3.3"
+  }
+}

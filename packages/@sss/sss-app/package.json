@@ -1,0 +1,22 @@
+{
+  "name": "@sss/app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt-layer/components": "workspace:^",
+    "vue": "^3.5.10",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "nuxt": "^3.12.4",
+    "sass": "^1.71.1",
+    "typescript": "^5.3.3"
+  }
+}
