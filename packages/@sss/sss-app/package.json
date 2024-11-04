@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt-layer/components": "workspace:^",
+    "my-nuxt-layer": "workspace:^",
     "vue": "^3.5.10",
     "vue-router": "^4.3.0"
   },

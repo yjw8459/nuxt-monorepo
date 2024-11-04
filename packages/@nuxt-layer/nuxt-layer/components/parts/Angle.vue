@@ -1,6 +1,7 @@
-<script lang="ts" setup>
-console.log('teststs');
+<script setup lang="ts">
+const { myLayer } = useAppConfig()
 </script>
+
 <template>
   <svg fill="#111" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
     <path
@@ -10,4 +11,3 @@ console.log('teststs');
     />
   </svg>
 </template>
-<style scoped lang="scss"></style>
