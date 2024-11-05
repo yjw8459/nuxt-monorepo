@@ -8,7 +8,11 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    './modules/my-module.ts',
+    './modules/my-module2.ts',
+  ],
 
   // css: ['~/assets/css/main.css'],
 })
